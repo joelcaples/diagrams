@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-20T15:36:23.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="pS2ze1F590lfUD0UVHtU" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-20T22:25:42.404Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="-5lsRmDZehJl2MFr_ZAz" version="21.3.7" type="github">
   <diagram name="Page-1" id="0FfI4RiW5pV0D5IYrMFr">
-    <mxGraphModel dx="1235" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eJi3TyezOYL9kb4o-W-8-1" value="Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eJi3TyezOYL9kb4o-W-8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eJi3TyezOYL9kb4o-W-8-2" target="eJi3TyezOYL9kb4o-W-8-16">
           <mxGeometry relative="1" as="geometry" />
@@ -19,52 +19,56 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eJi3TyezOYL9kb4o-W-8-2" value="&lt;div&gt;Ingest API&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#ff8000&quot;&gt;IngestApi.sln&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;POST /Auth/Token&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;POST /PostJob&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="760" y="70" width="120" height="80" as="geometry" />
+          <mxGeometry x="760" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="eJi3TyezOYL9kb4o-W-8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eJi3TyezOYL9kb4o-W-8-3" target="eJi3TyezOYL9kb4o-W-8-4">
+        <mxCell id="eJi3TyezOYL9kb4o-W-8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eJi3TyezOYL9kb4o-W-8-3" target="eJi3TyezOYL9kb4o-W-8-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eJi3TyezOYL9kb4o-W-8-3" value="&lt;div&gt;Event Broker&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Helvetica&quot; color=&quot;#ff8000&quot;&gt;Medsol.PlatformEventBroker.sln&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Process()&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;OnNewEvent() - Sends &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;normalized message to &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&#39;out event hub&#39;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
-          <mxGeometry x="200" y="50" width="180" height="120" as="geometry" />
+        <mxCell id="eJi3TyezOYL9kb4o-W-8-3" value="&lt;div&gt;Event Broker&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Helvetica&quot; color=&quot;#ff8000&quot;&gt;Medsol.PlatformEventBroker.sln&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;JobRequestProcessors.Process() - Creates the connection toEventHubNameSpace and BlobContainer&lt;/li&gt;&lt;li&gt;JobRequestProcessors.OnNewEvent() -Sends normalized message to&#39;out event hub&#39;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="360" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="eJi3TyezOYL9kb4o-W-8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eJi3TyezOYL9kb4o-W-8-4" target="eJi3TyezOYL9kb4o-W-8-5">
+        <mxCell id="eJi3TyezOYL9kb4o-W-8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eJi3TyezOYL9kb4o-W-8-4" target="eJi3TyezOYL9kb4o-W-8-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eJi3TyezOYL9kb4o-W-8-4" value="Reltio" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eJi3TyezOYL9kb4o-W-8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eJi3TyezOYL9kb4o-W-8-5" target="eJi3TyezOYL9kb4o-W-8-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="eJi3TyezOYL9kb4o-W-8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eJi3TyezOYL9kb4o-W-8-5" target="eJi3TyezOYL9kb4o-W-8-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="425" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="eJi3TyezOYL9kb4o-W-8-5" value="Normalized Queue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="230" width="130" height="60" as="geometry" />
+          <mxGeometry x="190" y="260" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eJi3TyezOYL9kb4o-W-8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eJi3TyezOYL9kb4o-W-8-6" target="eJi3TyezOYL9kb4o-W-8-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="eJi3TyezOYL9kb4o-W-8-6" value="&lt;div&gt;Event Ingestion&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#ff8000&quot;&gt;MedsolEventIngestion.sln&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
-          <mxGeometry x="160" y="360" width="130" height="60" as="geometry" />
+        <mxCell id="eJi3TyezOYL9kb4o-W-8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eJi3TyezOYL9kb4o-W-8-21" target="eJi3TyezOYL9kb4o-W-8-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="455" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="eJi3TyezOYL9kb4o-W-8-7" value="Business Logic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="480" width="130" height="60" as="geometry" />
+          <mxGeometry x="630" y="425" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eJi3TyezOYL9kb4o-W-8-8" value="&lt;div&gt;Client Event Broker&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#ff8000&quot;&gt;Medsol.ClientEventBroker.sln&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
-          <mxGeometry x="490" y="480" width="150" height="60" as="geometry" />
+          <mxGeometry x="860" y="425" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eJi3TyezOYL9kb4o-W-8-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eJi3TyezOYL9kb4o-W-8-7" target="eJi3TyezOYL9kb4o-W-8-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="410" as="sourcePoint" />
-            <mxPoint x="450" y="360" as="targetPoint" />
+            <mxPoint x="370" y="640" as="sourcePoint" />
+            <mxPoint x="420" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eJi3TyezOYL9kb4o-W-8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eJi3TyezOYL9kb4o-W-8-16" target="eJi3TyezOYL9kb4o-W-8-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eJi3TyezOYL9kb4o-W-8-16" value="Azure Event Hub" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
-          <mxGeometry x="420" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eJi3TyezOYL9kb4o-W-8-20" value="&#xa;&lt;div&gt;batched&lt;/div&gt;&lt;div&gt;message&lt;/div&gt;&lt;div&gt;event&lt;/div&gt;&#xa;&#xa;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="120" width="120" height="80" as="geometry" />
+          <mxGeometry x="590" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eJi3TyezOYL9kb4o-W-8-21" value="&lt;div&gt;&lt;div align=&quot;center&quot;&gt;&lt;div&gt;Event Ingestion&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#ff8000&quot;&gt;&lt;u&gt;MedsolEventIngestion.sln&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;JobClientService.InsertJob() - Inserts a Job and Event details in a normalized form. This is used to capture any job message available over Event Hub.&lt;/li&gt;&lt;li&gt;ErrorClientService.InsertError() - Inserts an Error and Event details in a normalized form. This is used to capture any failure message available over Event Hub.&lt;/li&gt;&lt;li&gt;BackgroundEventProcessorService.StartAsync() - Starts processing events from Azure EventHub&lt;/li&gt;&lt;li&gt;BackgroundEventProcessorService.StopAsync() - Stops processing events from Azure EventHub&lt;/li&gt;&lt;li&gt;BackgroundEventProcessorService.OnProcessEvent() - used to process the incoming event hub messages&lt;/li&gt;&lt;li&gt;BackgroundEventProcessorService.OnProcessEventError() - An error available on the console in case of some issue with respect to Infra i.e. EventHub&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="70" y="400" width="370" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
