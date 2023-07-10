@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-10T15:20:11.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="dz5rmY4eBFueYCxeylwv" version="21.6.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-10T23:02:48.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="yUc3ZKcyqKoSh4QAhoGn" version="21.6.1" type="github" pages="4">
   <diagram name="main" id="0FfI4RiW5pV0D5IYrMFr">
-    <mxGraphModel dx="1434" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xWN23bvv9Smv_glCRVoI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="eJi3TyezOYL9kb4o-W-8-3" target="eJi3TyezOYL9kb4o-W-8-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="387" y="180" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="eJi3TyezOYL9kb4o-W-8-3" value="&lt;div align=&quot;center&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Event Broker&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Uses Azure EventProcessorClient to listen for new Messages on EventHub.&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;container=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="237" y="110" width="150" height="100" as="geometry">
