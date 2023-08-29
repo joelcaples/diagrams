@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-10T23:02:48.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="yUc3ZKcyqKoSh4QAhoGn" version="21.6.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-29T12:03:35.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="kz28q8yMToXj1HGw0VaJ" version="21.6.9" type="github" pages="5">
   <diagram name="main" id="0FfI4RiW5pV0D5IYrMFr">
-    <mxGraphModel dx="1050" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -295,6 +295,52 @@
         </mxCell>
         <mxCell id="7MFXLVZyYG70PTrO07yn-16" value="MDM" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="30" y="305" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bJPwZFKtf88PoIQk2Y1E" name="apim">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ey9qXY7KqG7oJcW10c3N-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.583;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ey9qXY7KqG7oJcW10c3N-2" target="ey9qXY7KqG7oJcW10c3N-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ey9qXY7KqG7oJcW10c3N-8" value="External Partnet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ey9qXY7KqG7oJcW10c3N-6">
+          <mxGeometry x="0.482" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ey9qXY7KqG7oJcW10c3N-2" value="Gateway / APIM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ey9qXY7KqG7oJcW10c3N-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ey9qXY7KqG7oJcW10c3N-3" target="ey9qXY7KqG7oJcW10c3N-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ey9qXY7KqG7oJcW10c3N-3" value="MEdsol Subscription AD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ey9qXY7KqG7oJcW10c3N-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.008;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ey9qXY7KqG7oJcW10c3N-4" target="ey9qXY7KqG7oJcW10c3N-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ey9qXY7KqG7oJcW10c3N-4" value="Subscription 2 AD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ey9qXY7KqG7oJcW10c3N-9" value="LEAP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ey9qXY7KqG7oJcW10c3N-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ey9qXY7KqG7oJcW10c3N-13" target="ey9qXY7KqG7oJcW10c3N-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ey9qXY7KqG7oJcW10c3N-13" value="Internal App" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ey9qXY7KqG7oJcW10c3N-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.417;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ey9qXY7KqG7oJcW10c3N-15" target="ey9qXY7KqG7oJcW10c3N-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ey9qXY7KqG7oJcW10c3N-15" value="External Parner App" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="70" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
